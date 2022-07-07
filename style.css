@@ -1,0 +1,106 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+}
+
+
+
+.header {
+    background-image: url(/OperatingRoom_Illuvia.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 150px 80px;
+    display: flex;
+}
+
+
+
+h1 {
+    font-size: 48px;
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+p {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.donate-today-section {
+    display: flex;
+}
+
+.ten {
+    width: 20%;
+}
+
+.eighty {
+    width: 60%;
+}
+
+.donate-today>h2,
+p {
+    text-align: center;
+    padding: 5px 50px;
+    text-height: 1em;
+}
+
+.donate-today {
+
+    padding: 5px 250px;
+}
+
+
+.amount {
+    display: flex;
+    align-items: center;
+}
+
+.taka {
+    padding: 30px 40px;
+    margin: 10px;
+    background-color: #FAFAFA;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.taka>h3 {
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.active {
+
+    background-color: #fcefbe;
+    border: 2px solid #FFCD05;
+    width: 20%;
+}
+
+section>.header {
+    display: flex;
+}
+
+.headerbox>h1 {
+    text-align: center;
+}
+
+.headerbox>a {
+    text-align: center;
+}
+
+.btn-primary {
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #FFCD05;
+    color: #000;
+}
