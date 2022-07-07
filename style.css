@@ -7,12 +7,13 @@ body {
 
 
 .header {
-    background-image: url(/OperatingRoom_Illuvia.jpg);
+    background-image: url(./media/dark\ overlay.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 150px 80px;
     display: flex;
+    height: 500px;
 }
 
 
@@ -36,6 +37,7 @@ p {
 
 .donate-today-section {
     display: flex;
+    padding: 80px 10px;
 }
 
 .ten {
@@ -46,11 +48,9 @@ p {
     width: 60%;
 }
 
-.donate-today>h2,
-p {
+.donate-today>h2 {
     text-align: center;
     padding: 5px 50px;
-    text-height: 1em;
 }
 
 .donate-today {
@@ -67,7 +67,7 @@ p {
 .taka {
     padding: 30px 40px;
     margin: 10px;
-    background-color: #FAFAFA;
+    background-color: rgb(248, 248, 248);
     width: 20%;
     border-radius: 5px;
 }
@@ -89,18 +89,94 @@ section>.header {
     display: flex;
 }
 
+
+
 .headerbox>h1 {
-    text-align: center;
+    padding-top: 150px;
+    text-align: left;
+    color: white;
+    line-height: 10px;
 }
+
+
+
+.headerbox>p {
+    text-align: left;
+    color: white;
+    padding-bottom: 30px;
+    padding-left: 0;
+}
+
+
 
 .headerbox>a {
     text-align: center;
 }
 
 .btn-primary {
+    margin-top: 15px;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
     background-color: #FFCD05;
     color: #000;
+    font-weight: 800;
+    border: 0px;
+    font-family: lato;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+input[type="number"] {
+    width: 50%;
+    border-bottom: 2px solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+
+form {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.bgdark {
+    background-color: rgb(248, 248, 248);
+    padding: 80px 20%;
+}
+
+
+.donate-single-box {
+    padding: 25px;
+    background: tomato;
+    margin: 20px;
+}
+
+
+.food {
+    background-color: #EDF5F6;
+}
+
+.shelter {
+    background-color: #FFEEEE;
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+.Donate-Plan {
+    text-align: center;
 }
